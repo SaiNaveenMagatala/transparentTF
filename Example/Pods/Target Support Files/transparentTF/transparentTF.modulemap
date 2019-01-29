@@ -1,0 +1,6 @@
+framework module transparentTF {
+  umbrella header "transparentTF-umbrella.h"
+
+  export *
+  module * { export * }
+}

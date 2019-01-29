@@ -1,0 +1,6 @@
+framework module Pods_transparentTF_Tests {
+  umbrella header "Pods-transparentTF_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
