@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'transparentTF_Example' do
+  pod 'transparentTF', :path => '../'
+
+  target 'transparentTF_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
