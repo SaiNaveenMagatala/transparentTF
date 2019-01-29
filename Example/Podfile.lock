@@ -1,0 +1,16 @@
+PODS:
+  - transparentTF (0.1.0)
+
+DEPENDENCIES:
+  - transparentTF (from `../`)
+
+EXTERNAL SOURCES:
+  transparentTF:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  transparentTF: c6aaa96e986b74d56695f83a4d3207f7ebc75031
+
+PODFILE CHECKSUM: 3a3dff8d3bf63009220cba283b4e2dc277e7f19e
+
+COCOAPODS: 1.5.0

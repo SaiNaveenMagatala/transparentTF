@@ -1,0 +1,22 @@
+{
+  "name": "transparentTF",
+  "version": "0.1.0",
+  "summary": "A short description of transparentTF.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/NaveenMagatala/transparentTF",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "NaveenMagatala": "naveenmagatala@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/NaveenMagatala/transparentTF.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "transparentTF/Classes/**/*"
+}
