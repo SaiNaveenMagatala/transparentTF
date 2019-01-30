@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		174B3DC9B0C00EB168D4A9E1721318E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		21020494D8A0F066AAB7078862B5D3D0 /* transparentTF-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D4C31BDCC12AE31A7F406A2C93062267 /* transparentTF-dummy.m */; };
-		33E5DC24155555FE2FA13914AA59735D /* transparentTF-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CB7A2F7D5465E3AB9671F0F944C78E82 /* transparentTF-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1E073E3F4F078E9CF9250399D396182F /* PaddedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4C970F6CB80A3FA995923F8AF9EDA84 /* PaddedTextField.swift */; };
+		33E5DC24155555FE2FA13914AA59735D /* transparentTF-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D0A9FC91F3AE16CE26D6C4077C79FBB9 /* transparentTF-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3E26F031320495F303B58CC3888368DA /* Pods-transparentTF_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 38109EC78BB171F77B6746B02BA9DF6B /* Pods-transparentTF_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3FFE4B72338B7F61FABD407ACAD58993 /* Pods-transparentTF_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 045C8CB014EB586867F016D896001203 /* Pods-transparentTF_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5BA9D335D64142F2D7BE7044E92EF7FD /* TransparentTF.xib in Sources */ = {isa = PBXBuildFile; fileRef = 39289322AEF2154F7706679EABA647DA /* TransparentTF.xib */; };
+		5E6B6BB3CD930905651763EAB8C190F1 /* transparentTF-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D40F4A2D6EE2925B8C5DEF84CF4994B5 /* transparentTF-dummy.m */; };
+		663B2748B9C9235E85BEE0CE09FFA058 /* NibLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36842F16917E6BD2C7DA08B029CF7FB4 /* NibLoadable.swift */; };
 		6B894233CA2B3D0531AB6FA3DE489716 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		A1FAA2806035C5B156E3645B5D3395B9 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7429E9B38DDD12EE8A9D6FF797DAE5E3 /* ReplaceMe.swift */; };
+		AE4AA0A504831C298032F1AFF4DBBD30 /* TransparentTF.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB96B8DFF1DA28FD98B5DDA9BBCDBBEC /* TransparentTF.swift */; };
 		E773997888B376D3554A9F9FFFAF0896 /* Pods-transparentTF_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EA65929D11D6A4CD4CFA2C4F271DBB2 /* Pods-transparentTF_Example-dummy.m */; };
 		ECAE7CB34CB4547612EB81C23816301B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		F550F0FBFF928A7CAE61AD77793BAD16 /* Pods-transparentTF_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F120B8A29864AA48FB07D15FA42D415 /* Pods-transparentTF_Tests-dummy.m */; };
@@ -38,40 +41,43 @@
 
 /* Begin PBXFileReference section */
 		045C8CB014EB586867F016D896001203 /* Pods-transparentTF_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-transparentTF_Tests-umbrella.h"; sourceTree = "<group>"; };
-		107F86D66173BF974861B9EE11671B74 /* transparentTF-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "transparentTF-prefix.pch"; sourceTree = "<group>"; };
 		1EA65929D11D6A4CD4CFA2C4F271DBB2 /* Pods-transparentTF_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-transparentTF_Example-dummy.m"; sourceTree = "<group>"; };
 		2FDF3A612CD30DE6EDE89DCE0E935ECD /* Pods-transparentTF_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-transparentTF_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		36842F16917E6BD2C7DA08B029CF7FB4 /* NibLoadable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NibLoadable.swift; path = transparentTF/Classes/NibLoadable.swift; sourceTree = "<group>"; };
 		38109EC78BB171F77B6746B02BA9DF6B /* Pods-transparentTF_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-transparentTF_Example-umbrella.h"; sourceTree = "<group>"; };
 		392783DE53188D19E0A1CB49B6558F4A /* Pods-transparentTF_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-transparentTF_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		39289322AEF2154F7706679EABA647DA /* TransparentTF.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = TransparentTF.xib; path = transparentTF/Classes/TransparentTF.xib; sourceTree = "<group>"; };
 		3CF936B3040480E9CB4E948A485EA3D2 /* Pods-transparentTF_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-transparentTF_Tests-resources.sh"; sourceTree = "<group>"; };
 		3E1981543F1063F5EA9F79A77D79D052 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F120B8A29864AA48FB07D15FA42D415 /* Pods-transparentTF_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-transparentTF_Tests-dummy.m"; sourceTree = "<group>"; };
 		4708AB8EDBF4DDD8E7D527B607A4A663 /* Pods_transparentTF_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_transparentTF_Tests.framework; path = "Pods-transparentTF_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D93B0DF56AE8EF5435079B7B5DDE27D /* Pods-transparentTF_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-transparentTF_Example-resources.sh"; sourceTree = "<group>"; };
 		5ADB5AD3D4AA1CDC593D4E32781FF170 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		655531A186685EC0FB1788084AA7B31D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		5D01A2C10517E3C993FED3285794F9F8 /* transparentTF-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "transparentTF-prefix.pch"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6ED3A886C62AECA76355A784E299BCC9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		717720FCCF57ADFB5F43604EF31FDF0E /* transparentTF.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = transparentTF.xcconfig; sourceTree = "<group>"; };
 		720AF87C6EAAF842B6B16A54FD974CBB /* Pods-transparentTF_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-transparentTF_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		7429E9B38DDD12EE8A9D6FF797DAE5E3 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = transparentTF/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		77AB2C81E51F52275784778D374C40F7 /* Pods-transparentTF_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-transparentTF_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		869E0EAB350102562EB88281824FBCBF /* Pods-transparentTF_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-transparentTF_Example.modulemap"; sourceTree = "<group>"; };
 		8A18DC23D01A9A04D5B9DD38F672401C /* transparentTF.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = transparentTF.framework; path = transparentTF.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		95BB12F8440B75A1B408B419F94BB672 /* transparentTF.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = transparentTF.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9688F756149CECF32673AEFEE7947DBD /* Pods-transparentTF_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-transparentTF_Example.release.xcconfig"; sourceTree = "<group>"; };
 		9F23654C4CC87056F0B7C95EE1538CD5 /* Pods-transparentTF_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-transparentTF_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		A1F08D7BD5A8BE469952F2357E1F41B1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		B4C970F6CB80A3FA995923F8AF9EDA84 /* PaddedTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PaddedTextField.swift; path = transparentTF/Classes/PaddedTextField.swift; sourceTree = "<group>"; };
 		B90425D0A8F9B7CCCB962D603BD4BDCC /* Pods-transparentTF_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-transparentTF_Tests.modulemap"; sourceTree = "<group>"; };
 		B9EF65491C1C3759F0A98357FE462708 /* Pods_transparentTF_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_transparentTF_Example.framework; path = "Pods-transparentTF_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CB7A2F7D5465E3AB9671F0F944C78E82 /* transparentTF-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "transparentTF-umbrella.h"; sourceTree = "<group>"; };
-		D4C31BDCC12AE31A7F406A2C93062267 /* transparentTF-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "transparentTF-dummy.m"; sourceTree = "<group>"; };
+		C89F02BD9A415FB68ADF2B7BC5A074D5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		D0A9FC91F3AE16CE26D6C4077C79FBB9 /* transparentTF-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "transparentTF-umbrella.h"; sourceTree = "<group>"; };
+		D40F4A2D6EE2925B8C5DEF84CF4994B5 /* transparentTF-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "transparentTF-dummy.m"; sourceTree = "<group>"; };
+		DABE99ADBD9C7BE02B457AD584B9534C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		DB4D55E1ADE21B9D47479BF87A15735A /* Pods-transparentTF_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-transparentTF_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		DB96B8DFF1DA28FD98B5DDA9BBCDBBEC /* TransparentTF.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransparentTF.swift; path = transparentTF/Classes/TransparentTF.swift; sourceTree = "<group>"; };
 		DC31B37A4C3132E972E2FFA2139BF440 /* Pods-transparentTF_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-transparentTF_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E67F3680920F3392D21566128E8A0091 /* transparentTF.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = transparentTF.modulemap; sourceTree = "<group>"; };
 		E82504D58E41B4C7E250FC290F88448D /* Pods-transparentTF_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-transparentTF_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		EA1643E38A12126025C5C7FFDE37E72F /* Pods-transparentTF_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-transparentTF_Example-frameworks.sh"; sourceTree = "<group>"; };
-		FF4BF353FA99C4FAFD35774066B95A9C /* transparentTF.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = transparentTF.xcconfig; sourceTree = "<group>"; };
+		F434B46DCDED9CFFA752FF80E365F6F2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F50E2E586FC027BF033DFAA4C4C86CE5 /* transparentTF.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = transparentTF.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F734D40A49D23D842FE12434FA5B55DC /* transparentTF.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = transparentTF.modulemap; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,17 +108,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		08F111472B895AE67748C9ECC8D5628B /* transparentTF */ = {
-			isa = PBXGroup;
-			children = (
-				7429E9B38DDD12EE8A9D6FF797DAE5E3 /* ReplaceMe.swift */,
-				5AB693E453FFE532394E28EDC2265E74 /* Pod */,
-				7BC36AB7B996FA26CD9D3DC9601841CD /* Support Files */,
-			);
-			name = transparentTF;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		249C4E0B0E65F91C3599AF03992E3205 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -121,6 +116,24 @@
 				8A18DC23D01A9A04D5B9DD38F672401C /* transparentTF.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		31E3B0D614C2879F8CEEEBCE2393B188 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8A7AF0B38DB6C245043F08035AFA572B /* transparentTF */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		3A31F744FF0CBC6BCD454598739AD2F8 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				C89F02BD9A415FB68ADF2B7BC5A074D5 /* LICENSE */,
+				DABE99ADBD9C7BE02B457AD584B9534C /* README.md */,
+				F50E2E586FC027BF033DFAA4C4C86CE5 /* transparentTF.podspec */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		540324A9BF33A8B2ED368AB8656EAD54 /* Pods-transparentTF_Tests */ = {
@@ -141,35 +154,11 @@
 			path = "Target Support Files/Pods-transparentTF_Tests";
 			sourceTree = "<group>";
 		};
-		5AB693E453FFE532394E28EDC2265E74 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				A1F08D7BD5A8BE469952F2357E1F41B1 /* LICENSE */,
-				655531A186685EC0FB1788084AA7B31D /* README.md */,
-				95BB12F8440B75A1B408B419F94BB672 /* transparentTF.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		7BC36AB7B996FA26CD9D3DC9601841CD /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				6ED3A886C62AECA76355A784E299BCC9 /* Info.plist */,
-				E67F3680920F3392D21566128E8A0091 /* transparentTF.modulemap */,
-				FF4BF353FA99C4FAFD35774066B95A9C /* transparentTF.xcconfig */,
-				D4C31BDCC12AE31A7F406A2C93062267 /* transparentTF-dummy.m */,
-				107F86D66173BF974861B9EE11671B74 /* transparentTF-prefix.pch */,
-				CB7A2F7D5465E3AB9671F0F944C78E82 /* transparentTF-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/transparentTF";
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				FCE38FB4D16A55C9899D6F53D592553B /* Development Pods */,
+				31E3B0D614C2879F8CEEEBCE2393B188 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				249C4E0B0E65F91C3599AF03992E3205 /* Products */,
 				7FA7BFFC49A703E3114029AB30345C1E /* Targets Support Files */,
@@ -183,6 +172,20 @@
 				540324A9BF33A8B2ED368AB8656EAD54 /* Pods-transparentTF_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8A7AF0B38DB6C245043F08035AFA572B /* transparentTF */ = {
+			isa = PBXGroup;
+			children = (
+				36842F16917E6BD2C7DA08B029CF7FB4 /* NibLoadable.swift */,
+				B4C970F6CB80A3FA995923F8AF9EDA84 /* PaddedTextField.swift */,
+				DB96B8DFF1DA28FD98B5DDA9BBCDBBEC /* TransparentTF.swift */,
+				39289322AEF2154F7706679EABA647DA /* TransparentTF.xib */,
+				3A31F744FF0CBC6BCD454598739AD2F8 /* Pod */,
+				FB2FBF782FC30F2012754DD2499F3A27 /* Support Files */,
+			);
+			name = transparentTF;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		B34FAC4EA3C9CE56F66C9CFD9D0B2829 /* Pods-transparentTF_Example */ = {
@@ -219,12 +222,18 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		FCE38FB4D16A55C9899D6F53D592553B /* Development Pods */ = {
+		FB2FBF782FC30F2012754DD2499F3A27 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				08F111472B895AE67748C9ECC8D5628B /* transparentTF */,
+				F434B46DCDED9CFFA752FF80E365F6F2 /* Info.plist */,
+				F734D40A49D23D842FE12434FA5B55DC /* transparentTF.modulemap */,
+				717720FCCF57ADFB5F43604EF31FDF0E /* transparentTF.xcconfig */,
+				D40F4A2D6EE2925B8C5DEF84CF4994B5 /* transparentTF-dummy.m */,
+				5D01A2C10517E3C993FED3285794F9F8 /* transparentTF-prefix.pch */,
+				D0A9FC91F3AE16CE26D6C4077C79FBB9 /* transparentTF-umbrella.h */,
 			);
-			name = "Development Pods";
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/transparentTF";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,7 +270,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EC7227929365D3A7D696BFE0720163AE /* Build configuration list for PBXNativeTarget "transparentTF" */;
 			buildPhases = (
-				054D5239F1A36E22404C9896C4747033 /* Sources */,
+				5B196EEB942B52E6658E9A12C8A7B577 /* Sources */,
 				F995A325249087F98B5FB7CAE66EC6DA /* Frameworks */,
 				CC30FD98D18848FBD2599450688E2726 /* Headers */,
 			);
@@ -339,12 +348,15 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		054D5239F1A36E22404C9896C4747033 /* Sources */ = {
+		5B196EEB942B52E6658E9A12C8A7B577 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1FAA2806035C5B156E3645B5D3395B9 /* ReplaceMe.swift in Sources */,
-				21020494D8A0F066AAB7078862B5D3D0 /* transparentTF-dummy.m in Sources */,
+				663B2748B9C9235E85BEE0CE09FFA058 /* NibLoadable.swift in Sources */,
+				1E073E3F4F078E9CF9250399D396182F /* PaddedTextField.swift in Sources */,
+				5E6B6BB3CD930905651763EAB8C190F1 /* transparentTF-dummy.m in Sources */,
+				AE4AA0A504831C298032F1AFF4DBBD30 /* TransparentTF.swift in Sources */,
+				5BA9D335D64142F2D7BE7044E92EF7FD /* TransparentTF.xib in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,11 +394,104 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		175C0A44D5D94B28517076150002BEEB /* Release */ = {
+		08638A96A528B1EC32DE62F8A728389D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		0E85F0EDFBFD2AAB888FFCF7175D7A42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77AB2C81E51F52275784778D374C40F7 /* Pods-transparentTF_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-transparentTF_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-transparentTF_Tests/Pods-transparentTF_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2FBF3214523F2AEB975FFC6CAF8DA234 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9688F756149CECF32673AEFEE7947DBD /* Pods-transparentTF_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -398,7 +503,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-transparentTF_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-transparentTF_Example/Pods-transparentTF_Example.modulemap";
@@ -417,44 +522,12 @@
 			};
 			name = Release;
 		};
-		383903790E0ADE523805F48E7C0F5C73 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 77AB2C81E51F52275784778D374C40F7 /* Pods-transparentTF_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-transparentTF_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-transparentTF_Tests/Pods-transparentTF_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		55B0A2AB5FAA61513ADDB2B569874A11 /* Debug */ = {
+		328235CC6B5E9B16BA4B458495D11724 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 392783DE53188D19E0A1CB49B6558F4A /* Pods-transparentTF_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -466,7 +539,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-transparentTF_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-transparentTF_Example/Pods-transparentTF_Example.modulemap";
@@ -485,7 +558,75 @@
 			};
 			name = Debug;
 		};
-		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+		55C8C46F8CB1B7E7247305A82588D042 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 717720FCCF57ADFB5F43604EF31FDF0E /* transparentTF.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/transparentTF/transparentTF-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/transparentTF/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/transparentTF/transparentTF.modulemap";
+				PRODUCT_MODULE_NAME = transparentTF;
+				PRODUCT_NAME = transparentTF;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		574D0E522DC1DFC6F2D54E7CCD626716 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB4D55E1ADE21B9D47479BF87A15735A /* Pods-transparentTF_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-transparentTF_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-transparentTF_Tests/Pods-transparentTF_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9DAE5233986C01ADB6E67169C53A3FD2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -538,7 +679,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -548,10 +689,11 @@
 			};
 			name = Debug;
 		};
-		AF2F8CFC415E444D5DEADEB8A1C5D66A /* Release */ = {
+		DC8283FB8F94EAEB05F8780755D17478 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FF4BF353FA99C4FAFD35774066B95A9C /* transparentTF.xcconfig */;
+			baseConfigurationReference = 717720FCCF57ADFB5F43604EF31FDF0E /* transparentTF.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -564,7 +706,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/transparentTF/transparentTF-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/transparentTF/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/transparentTF/transparentTF.modulemap";
 				PRODUCT_MODULE_NAME = transparentTF;
@@ -573,131 +715,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		BA068D23D60F534EDD59C270CD8D0945 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FF4BF353FA99C4FAFD35774066B95A9C /* transparentTF.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/transparentTF/transparentTF-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/transparentTF/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/transparentTF/transparentTF.modulemap";
-				PRODUCT_MODULE_NAME = transparentTF;
-				PRODUCT_NAME = transparentTF;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		C29E68108E59F41ADCD7E23278A2A870 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DB4D55E1ADE21B9D47479BF87A15735A /* Pods-transparentTF_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-transparentTF_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-transparentTF_Tests/Pods-transparentTF_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -711,8 +729,8 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
-				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+				9DAE5233986C01ADB6E67169C53A3FD2 /* Debug */,
+				08638A96A528B1EC32DE62F8A728389D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -720,8 +738,8 @@
 		84568E1E7259F09E59E5E64AC60349E8 /* Build configuration list for PBXNativeTarget "Pods-transparentTF_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				55B0A2AB5FAA61513ADDB2B569874A11 /* Debug */,
-				175C0A44D5D94B28517076150002BEEB /* Release */,
+				328235CC6B5E9B16BA4B458495D11724 /* Debug */,
+				2FBF3214523F2AEB975FFC6CAF8DA234 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -729,8 +747,8 @@
 		A2C1504E9F04C9102FB242F5E248AF5C /* Build configuration list for PBXNativeTarget "Pods-transparentTF_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				383903790E0ADE523805F48E7C0F5C73 /* Debug */,
-				C29E68108E59F41ADCD7E23278A2A870 /* Release */,
+				0E85F0EDFBFD2AAB888FFCF7175D7A42 /* Debug */,
+				574D0E522DC1DFC6F2D54E7CCD626716 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -738,8 +756,8 @@
 		EC7227929365D3A7D696BFE0720163AE /* Build configuration list for PBXNativeTarget "transparentTF" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BA068D23D60F534EDD59C270CD8D0945 /* Debug */,
-				AF2F8CFC415E444D5DEADEB8A1C5D66A /* Release */,
+				55C8C46F8CB1B7E7247305A82588D042 /* Debug */,
+				DC8283FB8F94EAEB05F8780755D17478 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

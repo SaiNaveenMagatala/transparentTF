@@ -1,5 +1,4 @@
 import XCTest
-import transparentTF
 
 class Tests: XCTestCase {
     
