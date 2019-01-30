@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'transparentTF'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'Transparent iOS text field with a highlight on the bottom and ability to chain responders.'
   s.swift_version    = '4.2'
 
@@ -26,7 +26,7 @@ Transparent iOS text field with a highlight on the bottom and ability to chain r
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'NaveenMagatala' => 'naveenmagatala@gmail.com' }
-  s.source           = { :git => 'https://github.com/NaveenMagatala/transparentTF.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/SaiNaveenMagatala/transparentTF.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '11.0'
