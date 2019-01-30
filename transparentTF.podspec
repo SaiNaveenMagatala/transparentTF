@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'transparentTF'
-  s.version          = '0.1.3'
+  s.version          = '0.1.5'
   s.summary          = 'Transparent iOS text field with a highlight on the bottom and ability to chain responders.'
   s.swift_version    = '4.2'
 
