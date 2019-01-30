@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'transparentTF'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'Transparent iOS text field with a highlight on the bottom and ability to chain responders.'
   s.swift_version    = '4.2'
 
@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-Transparent iOS text field with a highlight on the bottom and ability to chain responders.
+Transparent iOS text field with a highlight on the bottom and ability to chain responders, contains padding between images and text box, has ability to chain responders.
                        DESC
 
   s.homepage         = 'https://github.com/SaiNaveenMagatala/transparentTF'
