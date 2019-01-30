@@ -23,7 +23,7 @@ iOS 11+, Xcode 9+
 * Drag and drop a `UIView` in the storyboard and name its custom class to `transparentTF`.
 * Compile and run the project you should be able to see the new textfield.
 
-# Configuring
+### Configuring
 ```
 emailTFV.configure(leftImage: UIImage(named: "email"),
                            placeHolder: "Enter Email",
