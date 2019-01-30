@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="f6l-82-ghh">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Create AccountVC-->
+        <scene sceneID="hgG-yQ-aLA">
+            <objects>
+                <viewController storyboardIdentifier="CreateAccountVC" id="f6l-82-ghh" customClass="CreateAccountVC" customModule="transparentTF_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="uw6-aZ-ftq">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="etr-Su-VnR">
+                                <rect key="frame" x="25" y="146" width="325" height="264"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EcB-sK-rs2" customClass="TransparentTF" customModule="transparentTF">
+                                        <rect key="frame" x="0.0" y="0.0" width="325" height="60"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="60" id="0os-4B-xqn"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0mR-b5-MGP" customClass="TransparentTF" customModule="transparentTF">
+                                        <rect key="frame" x="0.0" y="68" width="325" height="60"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="60" id="usd-gx-JdB"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="w8S-Rz-cCB" customClass="TransparentTF" customModule="transparentTF">
+                                        <rect key="frame" x="0.0" y="136" width="325" height="60"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="60" id="of8-0d-Ycy"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ETl-4T-hpI" customClass="TransparentTF" customModule="transparentTF">
+                                        <rect key="frame" x="0.0" y="204" width="325" height="60"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="60" id="0Rk-to-pTz"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Create Account" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PmW-A5-XTw">
+                                <rect key="frame" x="87.5" y="80" width="200.5" height="36"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mVe-U6-iKO">
+                                <rect key="frame" x="25" y="490" width="325" height="50"/>
+                                <color key="backgroundColor" red="0.20000000300000001" green="0.20000000300000001" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="yb8-gz-O3U"/>
+                                </constraints>
+                                <state key="normal" title="Create Account">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="createAccountTapped:" destination="f6l-82-ghh" eventType="touchUpInside" id="eOe-pC-r7f"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Pmu-tp-AN2" firstAttribute="trailing" secondItem="mVe-U6-iKO" secondAttribute="trailing" constant="25" id="Gnl-K4-oRl"/>
+                            <constraint firstItem="PmW-A5-XTw" firstAttribute="top" secondItem="Pmu-tp-AN2" secondAttribute="top" constant="60" id="IRE-G4-MOC"/>
+                            <constraint firstItem="etr-Su-VnR" firstAttribute="top" secondItem="PmW-A5-XTw" secondAttribute="bottom" constant="30" id="Ob9-4V-rUx"/>
+                            <constraint firstItem="mVe-U6-iKO" firstAttribute="top" secondItem="etr-Su-VnR" secondAttribute="bottom" constant="80" id="SRD-wo-Do9"/>
+                            <constraint firstItem="Pmu-tp-AN2" firstAttribute="trailing" secondItem="etr-Su-VnR" secondAttribute="trailing" constant="25" id="bSl-jC-fm8"/>
+                            <constraint firstItem="mVe-U6-iKO" firstAttribute="leading" secondItem="Pmu-tp-AN2" secondAttribute="leading" constant="25" id="cF4-OY-d8E"/>
+                            <constraint firstItem="etr-Su-VnR" firstAttribute="leading" secondItem="Pmu-tp-AN2" secondAttribute="leading" constant="25" id="kcS-Zv-sZY"/>
+                            <constraint firstItem="PmW-A5-XTw" firstAttribute="centerX" secondItem="Pmu-tp-AN2" secondAttribute="centerX" id="pDg-uy-y6x"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Pmu-tp-AN2"/>
+                    </view>
+                    <connections>
+                        <outlet property="emailTFV" destination="w8S-Rz-cCB" id="f6m-46-QsL"/>
+                        <outlet property="firstNameTFV" destination="EcB-sK-rs2" id="a9y-Wf-jeD"/>
+                        <outlet property="lastNameTFV" destination="0mR-b5-MGP" id="a7r-o1-OzY"/>
+                        <outlet property="passwordTFV" destination="ETl-4T-hpI" id="GOW-qJ-kW0"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="F3K-ep-4cV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1249" y="-87"/>
+        </scene>
+    </scenes>
+</document>
